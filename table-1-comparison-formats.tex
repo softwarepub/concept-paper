@@ -1,0 +1,80 @@
+\documentclass{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[pdftex]{graphicx}
+\usepackage{threeparttable}
+\usepackage{wasysym}
+
+\begin{document}
+
+\begin{table}
+\footnotesize
+\newcommand*\rot[1]{\hbox to1em{\hss\rotatebox[origin=br]{-60}{#1}}}
+\newcommand*\feature[1]{\ifcase#1 -\or\LEFTcircle\or\CIRCLE\fi}
+\newcommand*\f[3]{\feature#1&\feature#2&\feature#3}
+\makeatletter
+\newcommand*\ex[9]{#1\tnote{#2}&#3&%
+    \f#4&\f#5&\f#6&\f#7&\f#8&\f#9&\expandafter\f\@firstofone
+}
+\makeatother
+\newcolumntype{G}{c@{}c@{}c}
+\begin{threeparttable}
+\caption{Table caption here}
+\label{tab:features}
+\begin{tabular}{@{}lc GG !{\kern1em} GGG !{\kern1em} GG@{}}
+\toprule
+Scheme  & Example & \multicolumn{6}{c}{Security Features} & \multicolumn{9}{c}{Usability} & \multicolumn{6}{c}{Adoption}\\
+\midrule
+% rotated items
+&& \rot{Network MitM Prevented}
+ & \rot{Operator MitM Prevented}
+ & \rot{Operator MitM Detected}
+ %
+ & \rot{Operator Accountability}
+ & \rot{Key Revocation Possible}
+ & \rot{Privacy Preserving}
+ %
+ & \rot{Automatic Key Initialization}
+ & \rot{Low Key Maintenance}
+ & \rot{Easy Key Discovery}
+ %
+ & \rot{Easy Key Recover}
+ & \rot{In-Band}
+ & \rot{No Shared Secrets}
+ %
+ & \rot{Alert-less Key Renewal}
+ & \rot{Immediate Enrollment}
+ & \rot{Inattentive User Resistant}
+ %
+ & \rot{Multiple Key Support}
+ & \rot{No Service Provider}
+ & \rot{No Auditing Required}
+ %
+ & \rot{No Name Squatting}
+ & \rot{Asynchronous}
+ & \rot{Scalable}\\
+\midrule
+\ex{Opportunistic Encryption}{\dag*}{TCPCrypt}            {000}{002} {222}{222}{222} {222}{222}\\
+\ex{+TOFU (Strict)}{\dag}{-}                              {111}{102} {222}{022}{022} {022}{222}\\
+\ex{+TOFU}{\dag*}{TextSecure}                             {111}{102} {222}{222}{020} {022}{222}\\
+\midrule
+\ex{Key Fringerprint Verification}{\dag*}{Threema}        {222}{212} {000}{002}{000} {022}{222}\\
+\ex{+Short Auth Strings (Out-of-Band}{\dag*}{SilentText}  {222}{212} {000}{002}{000} {002}{202}\\
+\ex{+Short Auth Strings (In-Band/Voice/Video}{\dag*}{ZRTP}{222}{212} {000}{012}{000} {022}{202}\\
+\ex{+Socialist Millionaire (SMP)}{\dag*}{OTR}             {222}{212} {000}{020}{000} {022}{202}\\
+\ex{+Mandatory Verification}{\dag*}{SafeSlinger}          {222}{212} {000}{020}{022} {022}{202}\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item \hfil$\feature2=\text{provides property}$; $\feature1=\text{partially provides property}$;
+$\text{\feature0}=\text{does not provide property}$;
+\item \hfil\textsuperscript{\dag}has academic publication;
+\textsuperscript{*}end-user tool available
+\end{tablenotes}    \end{threeparttable}
+
+\end{table}
+
+
+\end{document}
