@@ -1,0 +1,50 @@
+@startuml HERMES_System
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/v2.4.0/C4_Component.puml
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include FONTAWESOME/users.puml
+
+!include <office/Security/key_permissions>
+!include <office/Concepts/service_application>
+!include <office/Concepts/publish>
+!include <office/Concepts/node_generic>
+!include <office/Concepts/lab>
+
+LAYOUT_LEFT_RIGHT()
+
+Person(rse, "Researchers", "Developers of a research software", $sprite="users")
+System_Ext(target, "Publication repository", "One or multiple publication repositories based on InvenioRDM or Dataverse", $sprite="publish")
+
+System_Boundary(platform, "Developing Platform", "GitHub, GitLab, etc") {
+  Container_Ext(secrets, "Secrets Storage", "Encrypted Plain Text", "A storage to retrieve credentials from", $sprite="key_permissions")
+  Container_Ext(api, "Platform API", "JSON", "Well-structured software metadata", $sprite="service_application")
+
+  Container_Boundary(vcs, "Source Code Repository") {
+    Component(ci_conf, "CI configuration", "Plain text", "Pipeline and workflow definitions")
+    Component(hermes_conf, "HERMES configuration", "Plain text", "Individual settings for HERMES tooling")
+    Component(code, "Code files", "Plain text", "The research software")
+    Component(data, "Data files", "Mixed content", "Optional research data in mixed repos")
+    Component(docs, "Documentation", "Plain text", "At least a README file")
+    Component(metadata, "Metadata files", "CFF/CodeMeta/...", "Well-structured software metadata files")
+  }
+  Rel_Left(rse, vcs, "Pushes")
+
+  Container_Boundary(ci, "CI/CD Tool", "GitHub Actions, GitLab CI, Jenkins, ...", "Engine to execute predefined, version controlled pipelines") {
+    Component_Ext(engine, "Runner", "GitHub/GitLab Runner or Jenkins Agent", "Runs defined pipelines", $sprite="node_generic")
+    Component(hermes, "HERMES workflow", "DSL based workflow", "Extract, merge, validate metadata and publish software", $sprite="lab")
+
+    Rel_Right(vcs, engine, "Triggers", "Changes, Releases, On Demand")
+    Rel(engine, ci_conf, "Reads")
+    Rel(engine, hermes, "Executes")
+    Rel_Right(engine, secrets, "Retrieves")
+
+    Rel_Up(hermes, hermes_conf, "Reads")
+    Rel(hermes, metadata, "Collates")
+    Rel(hermes, code, "Collates")
+    Rel(hermes, docs, "Collates")
+    Rel(hermes, api, "Collates")
+    Rel_Left(hermes, target, "Publishes")
+  }
+}
+
+@enduml
