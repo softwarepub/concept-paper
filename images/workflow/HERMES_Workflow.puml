@@ -1,0 +1,72 @@
+@startuml
+
+autonumber
+
+skinparam sequence {
+  ArrowColor darkgrey
+  LifeLineBorderColor darkgrey
+
+  ParticipantBorderColor #85bbf0
+  ParticipantBackgroundColor #85bbf0
+}
+
+participant "Source Code Repository" as VCS
+participant "CI Runner" as CI
+participant "Workflow Engine" as WE
+participant "Target Repository" as T
+
+create CI
+VCS -> CI: Trigger run
+CI -> CI: Prepare
+
+create WE
+CI -> WE: Run HERMES step
+
+group Metadata Harvesting
+  WE -> WE: Discover, order, weight available sources
+  loop Each source
+    WE -> WE: Fetch and analyse
+    WE -> WE: Save as structured metadata set
+  end
+end
+
+||20||
+group Metadata Processing
+  loop Each metadata set
+    WE -> WE: Validate
+    WE -> WE: Check for conflicting sets
+  end
+  WE -> WE: Merge sources into coherent set
+end
+
+||20||
+group Deposition
+  loop Each target repository
+    opt Match requirements
+      WE -> T: Elict metadata requirements from target
+      activate T
+      T --> WE: Return requirements
+      deactivate T
+      WE -> WE: Ensure merged set matches
+    end
+    WE -> WE: Package
+    WE -> T: Deposit
+    activate T
+    T -> WE: Return status and PID
+    deactivate T
+  end
+end
+
+||20||
+group Post Processing
+  WE -> WE: Run post processing tasks
+  WE --> CI: Send outputs
+  |||
+end
+
+CI -> WE: Teardown
+destroy WE
+CI -> CI: Post
+destroy CI
+
+@enduml
