@@ -1,0 +1,104 @@
+\documentclass[../document.tex]{subfiles}
+\begin{document}
+
+\begin{table}[htp]
+    %%\footnotesize
+    \newcommand*\rot[1]{\hbox to1em{\hss\rotatebox[origin=br]{-45}{#1}}}
+    \newcommand*\webhook{\faLink}
+    \newcommand*\harvest{\faTractor}
+    \newcommand*\cihook{\faCloudUpload*}
+    \newcommand*\service{\faConciergeBell}
+    \newcommand*\scripts{\faScroll}
+    \newcommand*\file{\faFile*}
+    \newcommand*\vcs{\faCodeBranch}
+    \newcommand*\api{\faCloudDownload*}
+    \newcommand*\yes{\faCheck}
+    \newcommand*\kinda{(\yes)}
+    \newcommand*\unknown{?}
+    \newcommand*\no{-}
+    \newcommand*\rs{\repostatus}
+    \renewcommand*\sup[1]{$^\textrm{#1}$}
+    
+    \newcommand*\citeRSD{\cite{sw:rsd}}
+    \newcommand*\citeHZDR{\cite{sw:rodare-bridge}}
+    \newcommand*\citeAMES{\cite{ASCL-CaltechAMES}}
+    \newcommand*\citeSARA{\sup{i},\cite{SARA}}
+    \newcommand*\citeCARP{\cite{sw:opencarp-ci}}
+    \newcommand*\citeZenodraft{\cite{sw:zenodraft},\cite{sw:zenodraft-action}}
+
+    \centering
+    
+    \begin{threeparttable}
+        \begin{tabular}{r *7{c} @{\hskip 10mm} *4{c}}
+            \toprule
+                % captions
+                & \multicolumn{7}{l}{Pull-based}
+                & \multicolumn{4}{l}{Push-based}\\
+            \midrule
+                %rotated items
+                & \rot{Research Software Directory}
+                & \rot{Software Heritage Archive}
+                & \rot{Sw. Heritage Github Action (\ref{par:workflows-swh-gh-action})}
+                & \rot{CaltechDATA AMES}
+                & \rot{GitHub-Zenodo Integration}
+                & \rot{GitLab-Zenodo Feature Request}
+                & \rot{GitLab-InvenioRDM Integration}
+                & \rot{Zenodraft Github Action (\ref{par:workflows-zenodraft})}
+                & \rot{OpenCARP CI}
+                & \rot{SARA service}
+                & \rot{Preservation Quality Tool}\\
+            \midrule
+                %                    RSD           SWH           SWH Action       Caltech       GH Zenodo       GL Zenodo      HZDR Invenio     ZD Action        OpenCARP CI   SARA             PresQT          
+                Status$^\star$     & \rs{Active} & \rs{Active} & \rs{Suspended} & \rs{Active} & \rs{Active}   & \rs{Concept} & \rs{Suspended} & \rs{Suspended} & \rs{Active} & \rs{Abandoned} & \rs{Unsupported} \\
+                Type               & \harvest    & \harvest    & \cihook        & \webhook    & \webhook      & \webhook     & \webhook       & \scripts       & \scripts    & \service       & \service         \\
+                Documentation      & \citeRSD    & \sup{a,b}   & \sup{c}        & \citeAMES   & \sup{d,e}     & \sup{g,h}    & \citeHZDR      & \citeZenodraft & \citeCARP   & \citeSARA      & \sup{j}          \\
+            \midrule
+            Extract metadata from: & \yes        & \yes        & \kinda         & \yes        & \yes          & \unknown     & \yes           & \yes           & \yes        & \yes           & \yes             \\
+                 Zenodo JSON \file & \no         & \no         & \no            & \no         & \yes\sup{f}   & \unknown     & \yes           & \yes           & \no         & \no            & \no              \\
+                    CodeMeta \file & \no         & \yes        & \kinda         & \yes        & \no           & \unknown     & \no            & \no            & \no         & \no            & \no              \\
+        Citation File Format \file & \yes        & \yes        & \kinda         & \no         & \yes\sup{f}   & \unknown     & \no            & \no            & \no         & \no            & \no              \\
+        Other via Crosswalks \file & \no         & \yes        & \kinda         & \no         & \no           & \unknown     & \no            & \no            & \no         & \no            & \no              \\
+                   Plaintext \file & \no         & \no         & \no            & \no         & \no           & \unknown     & \no            & \no            & \no         & \yes           & \no              \\
+               Configuration \file & \no         & \no         & \no            & \no         & \no           & \unknown     & \no            & \no            & \yes        & \no            & \yes             \\
+       Version control system \vcs & \no         & \no         & \no            & \no         & \no           & \unknown     & \no            & \no            & \yes        & \yes           & \no              \\
+           Platform API resp. \api & \yes        & \no         & \no            & \no         & \no           & \unknown     & \no            & \no            & \no         & \no            & \yes             \\
+            \midrule
+        Create publication w/ m.d. & \yes        & \yes        & \kinda         & \no         & \yes          & \unknown     & \yes           & \yes           & \yes        & \yes           & \yes             \\
+        Mint persistent identifier & \no         & \yes        & \kinda         & \no         & \yes          & \unknown     & \yes           & \yes           & \yes        & \yes           & \yes             \\
+          Update existing metadata & \yes        & \no         & \no            & \yes        & \no           & \unknown     & \no            & \yes           & \no         & \no            & \no              \\
+                in Zenodo          & \no         & \no         & \no            & \no         & \yes          & \unknown     & \yes           & \yes           & \no         & \no            & \yes             \\
+                in InvenioRDM      & \no         & \no         & \no            & \yes        & \kinda\sup{e} & \unknown     & \yes           & \no            & \no         & \no            & \no              \\
+                in Sw. Heritage    & \no         & \yes        & \kinda         & \no         & \no           & \no          & \no            & \no            & \no         & \no            & \no              \\
+                in Other           & \yes        & \no         & \no            & \no         & \no           & \no          & \no            & \no            & \yes        & \yes           & \yes             \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \footnotesize
+            \item Note: depositing software artifacts may be part of some of these workflows. \\ To keep the table focused on complexer metadata issues, this is left out on purpose.
+            \item
+            \item Status$^\star$: \repostatus[label]{Active}, \repostatus[label]{Suspended}, \repostatus[label]{Concept}, \repostatus[label]{Abandoned}, \repostatus[label]{Unsupported}
+            \item Type: \webhook\,Webhook, \harvest\,Harvesting, \cihook\,\gls{ci-cd}-based Webhook, \scripts\,Script based, \service\,Web service
+            \item Support: \yes\,supported, \kinda\,indirectly supported, \unknown\,not yet known, \no\,unsupported
+            \item Sources: \file\,file-based
+            \item
+            \item[$\star$]  Using controlled vocabulary \gls{repostatus}
+            \item[a]        See \url{https://archive.softwareheritage.org/save} and \cite{SWHArchive}
+            \item[b]        See \href{https://docs.softwareheritage.org/devel/swh-indexer/metadata-workflow.html}{SWH Indexer Metadata Workflow}, referenced from \cite{FennerBlogCff}
+            \item[c]        See section \nameref{par:workflows-swh-gh-action} (\ref{par:workflows-swh-gh-action})
+            \item[d]        \url{https://guides.github.com/activities/citable-code} or \\ \url{https://developers.zenodo.org/\#add-metadata-to-your-github-repository-release}
+            \item[e]        Zenodo extends \url{https://github.com/inveniosoftware/invenio-github} (CFF since \href{https://github.com/inveniosoftware/invenio-github/pull/89}{PR 89})
+            \item[f]        Zenodo JSON and CFF mutually exclusive. See \href{https://twitter.com/ZENODO_ORG/status/1420357001490706442}{announcement},
+                            \href{https://github.com/zenodo/zenodo/pull/2201}{Zenodo PR} \& \href{https://github.com/zenodo/zenodo/commit/a806d10700a504cc86abaf9eb961dc201b3d8fe8}{Zenodo Fix}
+            \item[g]        \url{https://github.com/zenodo/zenodo/issues/1404}
+            \item[h]        \url{https://gitlab.com/gitlab-org/gitlab/-/issues/25587}
+            \item[i]        \url{https://sara-service.org}        
+            \item[j]        \url{https://presqt.readthedocs.io}
+        \end{tablenotes}
+    \end{threeparttable}
+    
+    \caption{Existing software publication workflows and building bricks}
+    %\caption*{\todo[inline]{change geometry for this page/table to make it centred}}
+    \label{tab:workflows}
+\end{table}
+
+\end{document}

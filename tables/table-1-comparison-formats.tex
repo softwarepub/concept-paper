@@ -1,0 +1,68 @@
+\documentclass[../document.tex]{subfiles}
+\begin{document}
+
+%% inspired by https://tex.stackexchange.com/questions/377638
+
+\begin{table}[ht]
+    %%\footnotesize
+    \newcommand*\rot[1]{\hbox to1em{\hss\rotatebox[origin=br]{-60}{#1}}}
+    \newcommand*\C[1]{\ifcase#1 -\or\LEFTcircle\or\CIRCLE\fi}
+    
+    \centering
+    
+    \begin{threeparttable}
+        \begin{tabular}{r *{8}{c} @{\hskip 10mm}*{2}{c} @{\hskip 10mm}c}
+            \toprule
+            Metadata type & \multicolumn{11}{c}{Metadata format}\\
+            \midrule
+            % rotated items
+             & \rot{Plain Text files}
+             & \rot{CodeMeta files}
+             & \rot{Citation File Format}
+             & \rot{Zenodo JSON files}
+             & \rot{BibTex files}
+             & \rot{Manifest files}
+             & \rot{Configuration files}
+             & \rot{Linked Data files}
+             & \rot{Version control sys.}
+             & \rot{Platform APIs}
+             & \rot{Other}
+             \\
+            \midrule
+            Software name                   &\C2&\C2&\C2&\C2&\C2&\C2&\C0&\C2&\C1&\C2&\C0 \\
+            File system metadata            &\C0&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C1&\C0&\C2 \\
+            Authorship information          &\C2&\C2&\C2&\C2&\C2&\C1&\C1&\C2&\C1&\C1&\C0 \\
+            Documentation reference         &\C2&\C2&\C0&\C0&\C0&\C0&\C2&\C2&\C0&\C2&\C2 \\
+            Legal and licensing info.       &\C2&\C2&\C2&\C2&\C0&\C2&\C0&\C2&\C0&\C2&\C2 \\
+            Funding information             &\C2&\C2&\C0&\C2&\C0&\C0&\C0&\C2&\C0&\C0&\C2 \\
+            Domain context                  &\C2&\C0&\C0&\C0&\C0&\C1&\C0&\C2&\C0&\C1&\C2 \\
+            Citation metrics                &\C2&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C0&\C2&\C2 \\
+            Location metadata               &\C2&\C2&\C2&\C0&\C1&\C0&\C1&\C2&\C2&\C2&\C2 \\
+            Publication dates, etc.         &\C0&\C2&\C2&\C2&\C2&\C0&\C0&\C2&\C1&\C2&\C0 \\
+            Categorization inform.          &\C2&\C2&\C2&\C2&\C0&\C1&\C0&\C2&\C0&\C1&\C2 \\
+            Availability information        &\C2&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C0&\C0&\C2 \\
+            Identifiers                     &\C2&\C2&\C2&\C2&\C2&\C0&\C0&\C2&\C1&\C1&\C2 \\
+            Relational metadata             &\C2&\C0&\C0&\C2&\C0&\C2&\C0&\C2&\C1&\C1&\C0 \\
+            High-level description          &\C2&\C2&\C2&\C2&\C1&\C1&\C0&\C2&\C0&\C1&\C0 \\
+            Dependency information          &\C2&\C2&\C2&\C0&\C0&\C2&\C1&\C2&\C0&\C1&\C0 \\
+            Lines of code                   &\C0&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C1&\C2&\C2 \\
+            Programming language            &\C2&\C0&\C0&\C0&\C0&\C2&\C2&\C2&\C0&\C2&\C0 \\
+            Version information             &\C2&\C2&\C2&\C2&\C1&\C2&\C1&\C2&\C2&\C2&\C2 \\
+            Runtime requirements            &\C2&\C0&\C0&\C0&\C0&\C2&\C2&\C2&\C0&\C0&\C2 \\
+            References                      &\C2&\C2&\C2&\C2&\C0&\C2&\C1&\C2&\C0&\C2&\C2 \\
+            Software quality metrics        &\C2&\C0&\C0&\C0&\C0&\C0&\C2&\C2&\C0&\C2&\C2 \\
+            Development metrics             &\C2&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C2&\C2&\C2 \\
+            Usage metrics                   &\C2&\C0&\C0&\C0&\C0&\C0&\C0&\C2&\C0&\C2&\C2 \\
+            Infrastructural metadata        &\C2&\C0&\C0&\C0&\C0&\C0&\C2&\C2&\C1&\C2&\C2 \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \item $\C2=\text{provides type}$; $\C1=\text{partially prov. type}$; $\text{\C0}=\text{does not prov. type}$;
+        \end{tablenotes}
+    \end{threeparttable}
+    
+    \caption{Mapping metadata types to common metadata formats.}
+    \label{tab:comparision-metadata-types}
+\end{table}
+
+\end{document}

@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1614px" preserveAspectRatio="none" style="width:986px;height:1614px;background:#FFFFFF;" version="1.1" viewBox="0 0 986 1614" width="986px" zoomAndPan="magnify"><defs/><g><!--MD5=[d841c4c2f84d4e18d352f800547f43fc]
+cluster platform--><rect fill="#FFFFFF" height="1227" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="973" x="7" y="172.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="188" x="399.5" y="209.3516">Developing Platform</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="466" y="224.2637">[System]</text><!--MD5=[fa3ad69504412869e64fd6b8e3e39a9c]
+cluster vcs--><rect fill="#FFFFFF" height="946" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="268" x="680" y="259.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="221" x="703.5" y="286.3516">Source Code Repository</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="780.5" y="301.2637">[Container]</text><!--MD5=[f94a88e1ea09208aa92c607904552d3d]
+cluster ci--><a href="Engine" target="_top" title="Engine" xlink:actuate="onRequest" xlink:href="Engine" xlink:show="new" xlink:title="Engine" xlink:type="simple"><rect fill="#FFFFFF" height="267" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="548" x="31" y="710.5"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="96" x="257" y="747.3516">CI/CD Tool</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="271.5" y="762.2637">[Container]</text></a><!--MD5=[192e1387d56ac353277bfe9f6fdb8154]
+entity secrets--><rect fill="#B3B3B3" height="163.4531" style="stroke:#A6A6A6;stroke-width:1.5;" width="179" x="51" y="994"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="126" x="77.5" y="1015.1387">«external_container»</text><image height="48" width="24" x="128.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAIAAACE6i30AAABd0lEQVR4Xu2WIbaEMAxFZ//bicFgMJgxGAwGk338nAYKfUlLyhn5r6TpJUkL7Yd+xAcfvKUqGobh+/1u28aJfd+XZZmmCeNOHJEo8nyLGOd5xjlWJO/EqR6SHUwsREGLAq5LJBVJ2hjOLGWu64pPE/caL5GNFu84jjnANk4C8ughknQgSLBrhBHMsrI6dIgkSQxhFvvlSLhZ69AhsmlzTJTDDhEOJmC/uOUL2seWiG9tkmh3TTko4tSFmkIpRG6PghQiWUUcD6OGQyRWHI8h61iIhHYjauQtcoleJJW3dSGizk7lopRCJMjPAWd4yCrDRBRR5bu7c68o44io/jXwuWssvojqex3jTv5FB+56KR2ihoXiInsiAlERfBCWqOjR1SHiZoF9Iq67ukXunYZ6RY0d0CFqWCguul88XKIirndH6RBx09Un4hd/SPfPLZ2ydx2lKiJzOsFNEGiJqDydarkoDyJKt7R2LsqziNJpjo8MIVGEn4n+AJVFeu6Jz2nmAAAAAElFTkSuQmCC" y="1017.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="66" y="1080.8203">Secrets Storage</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="135" x="73" y="1095.7324">[Encrypted Plain Text]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="142.5" y="1111.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="65" y="1127.8545">A storage to retrieve</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="81" y="1144.1514">credentials from</text><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><rect fill="#B3B3B3" height="154.4531" style="stroke:#A6A6A6;stroke-width:1.5;" width="207" x="710.5" y="1229.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="126" x="751" y="1250.6387">«external_container»</text><image height="39" width="48" x="790" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAnCAIAAADGs1zzAAABtElEQVR4Xu2Xu3KEMAxF9/9/x802NDQ0NDQ0NDT8Ry6+RJEF9k42FmxmOEXGYww6keXHPsKH8bAdV7MJtW07z/NyLl3XpTIrm5CfzTiO0zSxMQwDO9FgxFRmZRPSn6hLiOlHo2maEP9z+KFBuefzqWRW3IXK/CshJLM7ERZWSQhFlz7y5XUN3UK3UJlb6BV933+WEDlVCDngCcpTjMBgiZswpkyN/cFLiIGJ/jJniuDQVW9seAmF9EqDfPD6oTvtCxFHId46clw5ZTl0bQk1hVjFOMlhI1ODBlLF1YS/kEAgccIjnvy8tYW6QhJGyH0TEnbod41XE9rHQG7sIIXcrwVWVTWhkC7p5WgXNugVh+gcX1OIMEw5PUSKSat7CUmRFpBZ051eQr/KkO6sKYTM69K2j3fwng9QfDJr1YT2+3L5g9iQzPhklUme34M7ngmwZPZiYofGPAURwpvzH37e81syBXov5iONntZR/eBPln0VWENsmz2Jgc1pr+dUcllTyLCvKk1uX7hMaMksQ0chCcxksET0EVa6MXqgtxnplMWIYjpcg45CIYbf3wzhd5gb4iv0Bl/pPnzmkIku1QAAAABJRU5ErkJggg==" y="1253.4688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="755.5" y="1307.3203">Platform API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="794" y="1322.2324">[JSON]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="1338.0576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="724.5" y="1354.3545">Well-structured software</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="779" y="1370.6514">metadata</text><!--MD5=[6ba1f32f1b4c10f1f42d9ee69e71df64]
+entity ci_conf--><rect fill="#85BBF0" height="115.4531" style="stroke:#78A8D8;stroke-width:1.5;" width="185" x="721.5" y="348"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="369.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="147" x="740.5" y="386.8203">CI configuration</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="781" y="401.7324">[Plain text]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="417.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="735.5" y="433.8545">Pipeline and workflow</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="775.5" y="450.1514">definitions</text><!--MD5=[e941e85eeacf93bbf079ac5e94f33488]
+entity hermes_conf--><rect fill="#85BBF0" height="115.4531" style="stroke:#78A8D8;stroke-width:1.5;" width="220" x="704" y="498"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="519.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="200" x="714" y="536.8203">HERMES configuration</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="781" y="551.7324">[Plain text]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="567.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="736.5" y="583.8545">Individual settings for</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="757" y="600.1514">HERMES tooling</text><!--MD5=[eae931e7931b24a2ba20ef73f0c8d8fa]
+entity code--><rect fill="#85BBF0" height="99.1563" style="stroke:#78A8D8;stroke-width:1.5;" width="184" x="722" y="948"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="969.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="91" x="768.5" y="986.8203">Code files</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="781" y="1001.7324">[Plain text]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="1017.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="736" y="1033.8545">The research software</text><!--MD5=[703ea5a149c5871c74522bf38bdfe548]
+entity data--><rect fill="#85BBF0" height="115.4531" style="stroke:#78A8D8;stroke-width:1.5;" width="209" x="709.5" y="798"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="819.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="769.5" y="836.8203">Data files</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="766" y="851.7324">[Mixed content]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="867.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="723.5" y="883.8545">Optional research data in</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="769.5" y="900.1514">mixed repos</text><!--MD5=[57a5b41ed6b3ba96fe9b4a740eb3fdc7]
+entity docs--><rect fill="#85BBF0" height="99.1563" style="stroke:#78A8D8;stroke-width:1.5;" width="184" x="722" y="1082"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="1103.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="142" x="743" y="1120.8203">Documentation</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="66" x="781" y="1135.7324">[Plain text]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="1151.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="736" y="1167.8545">At least a README file</text><!--MD5=[87734a20c2eaadadc712f7efe19c3795]
+entity metadata--><rect fill="#85BBF0" height="115.4531" style="stroke:#78A8D8;stroke-width:1.5;" width="207" x="710.5" y="648"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="772.5" y="669.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="747.5" y="686.8203">Metadata files</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="111" x="758.5" y="701.7324">[CFF/CodeMeta/...]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="717.5576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="724.5" y="733.8545">Well-structured software</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="762" y="750.1514">metadata files</text><!--MD5=[cb028c5091c687ec367cd0cbfd70389f]
+entity engine--><rect fill="#CCCCCC" height="161.125" style="stroke:#BFBFBF;stroke-width:1.5;" width="187" x="47" y="782"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="138" x="71.5" y="803.1387">«external_component»</text><image height="48" width="41" x="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAwCAIAAAAD28TyAAAB1ElEQVR4Xu2Y0bWDIAyGO5wTdAIXcAIXcAIncAEncIEMdf9z08uNAUKCPe2L31NPRT6SIIIP+h4P/ccH6Xcfx7Esy77v+oKbTve6rs/nc/hlmiaMQ7dwEHYj0HEc2ZrAODAa3bRFzI0QlVURKoHXjdKmJNv4S9B2F5PcBGPVHWVYbgy/mWQD5GnbNt2poOrGwHVnXWD0tUlQcKOps7R+iiU4uWG9kmSb/Dn8d6O6bw83R+pPcUM/z7Nu/iYQmCr8yy1nBCZnx0NlAGuqN4fHrpebG8kZgeSce+gEUaU+ERX/WXAP5xlxsQRIXsqlWqDKbsa4zUOeZNXAcjO4h6+SSFcT3JXW89oC1XYPWQlqfTEyW/aEdbkZjCCFgh/FTuUQmwtUwM3IlyPCSgsRktFMsiLsZuTCJPdrcjRNOt1D9nKsVcGg383wU4Be9AUHV92AIs+e5Hbf7iC3O8jt5i78b4JEnzttSV5uJro/jLrVEfXkJt+bP0Fud34oodzNON9O5HMXD2NUczPyo0oRarmNQyjZbsYoAdXdzcM3edxU36JTxZ2XtojLzeQloMwtN+dNAm5GHjJIuOU+2knYTeITAf0tSs4kK3rcDE+laKySfvd1vun+ASbyjTLv8kVYAAAAAElFTkSuQmCC" y="805.9688"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="64" x="108.5" y="868.8203">Runner</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="154" x="61.5" y="883.7324">[GitHub/GitLab Runner or</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="88" x="96.5" y="897.7012">Jenkins Agent]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="142.5" y="913.5264"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="61" y="929.8232">Runs defined pipelines</text><!--MD5=[25cc2a07eab060485537298fecf68bfa]
+entity hermes--><rect fill="#85BBF0" height="179.75" style="stroke:#78A8D8;stroke-width:1.5;" width="201" x="362" y="781.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="421" y="802.6387">«component»</text><image height="48" width="44" x="440.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAwCAIAAADl8g+2AAAB2klEQVR4Xu2YMU4EMQxF90LT0m5JQbMldAjR0YBEuxJNGioqaiQOAD0NR+AIHIEjrCUzxjvf8TjJzIDQSk8UyEle4sTJ7Cq9ff06K/zX8kQl1qfX3Xrjc/v8gQ0jhCSodxwSOb68w7YRQhIpthLbl09sGCEqkcY8rh7fsUmQAgkaBsdmjk7OMT5OgYSzMzY3DxgfZxqJs+0Txsc5SPQcJHoOEj3/SMIsVhf3rxipkTpbIEHTxY4EvL38+K5CgsbAXjRmRpzFIyQsKuFfoQwuxpQSzv2pwbt0MgmaH/WOXZjQZtRtJ5OgRxu2d9Btp5EIJkKjX5ooQftXiErEE6GRpx5K4OZNvgSVIBwgAh0l7gElNOMSUhhoeREaJgcvHtfQVgkuDGYJ8hF7MmiS4LKP5z4I55GmUS8hhaHlU4J78I+3BBsS3LL6m47JrQFGJpTgwkDzMM9SEeYyhOoE78dB9a0GJTQStifBLwA55e347xoJ+5GQLLYnQsjtjKwEp7CiMDiUSchFhR21UCbRXhhMUAJjkkhwxAISptC3hL+NZ2IowR51r4dqDIk58D8UJGx2idzq6pI4r0TK3CDd/i+vs0sk6wYZXNFLSFBS6JnDeaG/WJSXkBjlT0jsABchaV1IThvGAAAAAElFTkSuQmCC" y="805.4688"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="382" y="868.3203">HERMES workflow</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="131" x="397" y="883.2324">[DSL based workflow]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="464.5" y="899.0576"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="376" y="915.3545">Extract, merge, validate</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="382.5" y="931.6514">metadata and publish</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="431" y="947.9482">software</text><!--MD5=[cb5412a31d81f747849450258fade851]
+entity rse--><rect fill="#08427B" height="149.4844" style="stroke:#073B6F;stroke-width:1.5;" width="207" x="710.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="786.5" y="28.1387">«person»</text><image height="48" width="48" x="790" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACbklEQVR4Xu1Wq04FMRS8cj+BT+AXsDgMHwAfQILGXUWQgMQQggRDgsBgSLiWgEIREhRIEAjsMum5dLtzetreXgKE7GTUbh/TOY921CyP/xRH+tPvchCU4yAox0FQjt8gaHF9b2XreGnjYGF1R/+dlfWCsP3uyeTt/aMNcPfwDHF6cDkrBcEPkhLi6OJGTylkjSDEKKFGUK2pRhDiwvvHUBe7iKDN/fOnl1esCBuQJfQX2/DOBqBbz726fWzdymfX93Ba786CYHV6XT0ggbDu1rZP6S9kaU09QUhVmiMIfZIjFgILyiwo438O2sWeIOv0iKAfU5hAAp9G2h4P6l49QYgrD3eAt9kxUfiIIC/53xcoaj1B48NLHu4QGptYmhAeI1EKoQAWZEUahmfHaFCFSuUSdLviKtNH0ZVvGRkC9lByIDSkCfVBKzdaUOM8wJbQDim+TIjZTLImIuJYGbTaZkRQIS2fkHC6u5STBcEeLIfzeSYeFfiFE8MtiID/iXMLaeWo7k4QVreaHmJvhaCQiD4v6oBUw5HCkZ2gaBUIMC199CzTORdqmgqyEqJ19vioYSZclLeHXL1hTBECNAhvMyYiiCW9sQ260VSQdSH46tVFWw7fOBLH9hGYCrI2k9SBGv4xIxAy2chKU997U4J848q+D0sgiWI9KFhQNGRiY8LnmeCvtsRenaBoxiXMq4PYoFtA+Lzpyh5mwgxPcbj8Ki2BXKXISNoo7L3cqYnzp3OI6G1KzAiycrAO/1EQyKvOAf200swLsl7+FYhe78S8oMa1IlQmGkk1EawSNU2hoJ/kICjHQVCOg6AcB0E5fgLPSUakWeua4wAAAABJRU5ErkJggg==" y="30.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="113" x="757.5" y="93.8203">Researchers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="816" y="110.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="724.5" y="126.8857">Developers of a research</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="782.5" y="143.1826">software</text><!--MD5=[7fc17b7979adff8d1818157634c0b46e]
+entity target--><rect fill="#999999" height="192.7031" style="stroke:#8A8A8A;stroke-width:1.5;" width="197" x="364" y="1416"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="112" x="406.5" y="1437.1387">«external_system»</text><image height="40" width="48" x="438.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAoCAIAAAA35e4mAAAB2ElEQVR4Xu2Yu7aCMBBF/f8/SGVHR2dHZWdHR+e/3CMHD8Pk4SvRu1zuKoRJspMMAd2Ff8bOV3yaRajrummazm9kHMetycIi1MhmnFGZo6jydDptZS4sQraXitjOURiGIa50tBUqr9D5/UI32cpc2AjR/T3cFsJ6bm+15duFhgw+Lk9lIXYX4+Py5OJ/Qldy8d8iZI8TNNSlj8tTWUig1eFw8LV38BO6xUtCw/zZ8BDoLfm5Ixjma+8XyiXsx1boUaH9fn88HifzIcqHUcF93ydfNU2EyluMJviEd01ESQiz7GY4V5ZRGeYfBQT1uMsyW+FSA/MW67EkyCre4tqwK0dJCFO/zmqFqcoj0YLxglmbXEZDgpEoIAzGLqCOENtyDMUUwLKprQuuI8SJakdcPw5utG1uneoIcRc4TLwLFrs2FjmVhB6FXSuLk2h4zEHxLPBprS/ka7fQJswPneLp1Eoo+TALbY3ygZdw4r4vQsrH5+A2MYeS528MR4yfx0UovOZECX2vrd1n0AHBVbGsQq/j0rOAJh/vb02hYEYqOOndkoypLBTMX03YQXsE8KWhu7njqr5QuOPvr0LiNxEK8zGT1HLLFtNKiGBsJAp/9kMxTuGYtkJP8Af2x0poqd5SNgAAAABJRU5ErkJggg==" y="1439.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="102" x="408.5" y="1494.8203">Publication</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="96" x="414.5" y="1513.4453">repository</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="464.5" y="1530.2139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="406.5" y="1546.5107">One or multiple</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="374.5" y="1562.8076">publication repositories</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="374" y="1579.1045">based on InvenioRDM or</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="426" y="1595.4014">Dataverse</text><!--MD5=[f5947df0e86efd08eafc3349915af0c9]
+reverse link vcs to rse--><path d="M814,259.0317 C814,258.575 814,258.1164 814,257.656 C814,256.7352 814,255.8073 814,254.8725 C814,224.96 814,188.065 814,156.01 " fill="none" id="vcs-backto-rse" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="814,259.0317,817,251.0317,811,251.0317,814,259.0317" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="52" x="777.5" y="238.7087">Pushes</text><!--MD5=[6debee838d01a95df5760a4f496d0500]
+link vcs to engine--><path d="M679.6819,326.7085 C679.4277,326.7774 679.1738,326.8467 678.9201,326.9163 C677.9051,327.1947 676.8935,327.4783 675.8857,327.7674 C671.8547,328.9235 667.8843,330.1656 664,331.5 C516.439,382.2 473.676,401.54 362,510.5 C283.125,587.46 219.843,697.974 181.645,774.556 " fill="none" id="vcs-to-engine" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="178.028,781.859,184.2676,776.0223,178.8912,773.3587,178.028,781.859" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="431" y="328.6387">Triggers</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="141" x="390" y="342.6074">[Changes, Releases, On</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="434.5" y="356.5762">Demand]</text><!--MD5=[550441b1d029f03242ffc92e9a45d1f1]
+link engine to ci_conf--><path d="M234.059,787.571 C336.043,706.767 506.538,576.78 664,480.5 C679.89,470.78 697.2,461.22 714.213,452.34 " fill="none" id="engine-to-ci_conf" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="721.482,448.57,712.9977,449.5782,715.7527,454.9083,721.482,448.57" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="44" x="440.5" y="530.6387">Reads</text><!--MD5=[71f501e43f5bd47a14360892f1e64aae]
+link engine to hermes--><path d="M234.057,865.103 C271.453,866.155 314.864,867.376 353.676,868.467 " fill="none" id="engine-to-hermes" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="361.884,868.698,353.9712,865.4749,353.803,871.4725,361.884,868.698" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="66" x="265" y="863.6387">Executes</text><!--MD5=[2758e33d745f726081701352bb817897]
+link engine to secrets--><path d="M140.5,943.32 C140.5,957.122 140.5,971.535 140.5,985.556 " fill="none" id="engine-to-secrets" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="140.5,993.758,143.5,985.758,137.5,985.758,140.5,993.758" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="95" y="973.1387">Retrieves</text><!--MD5=[1d9f69170ac157516206304c8581686e]
+reverse link hermes_conf to hermes--><path d="M696.768,607.97 C685.281,614.91 674.138,622.442 664,630.5 C610.209,673.257 560.71,732.455 524.352,781.479 " fill="none" id="hermes_conf-backto-hermes" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="703.959,603.72,695.5453,605.2063,698.5972,610.3721,703.959,603.72" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="44" x="603.5" y="638.6387">Reads</text><!--MD5=[621ed06e5cfab490b0c5229f22738582]
+link hermes to metadata--><path d="M563.185,824.153 C606.857,803.411 658.251,779 703.033,757.73 " fill="none" id="hermes-to-metadata" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="710.448,754.209,701.9347,754.9322,704.5094,760.3517,710.448,754.209" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="596" y="778.6387">Collates</text><!--MD5=[2eb8e58b6eb666b8f707391769eedb50]
+link hermes to code--><path d="M563.185,907.438 C610.488,924.491 666.851,944.811 714.059,961.83 " fill="none" id="hermes-to-code" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="721.854,964.641,715.3454,959.1058,713.3107,964.7503,721.854,964.641" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="596" y="917.6387">Collates</text><!--MD5=[506ece78bd0716a9cc5b21e7ef6864b1]
+link hermes to docs--><path d="M544.191,961.62 C578.724,996.72 620.971,1035.411 664,1064.5 C679.523,1074.994 696.957,1084.534 714.281,1092.913 " fill="none" id="hermes-to-docs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="721.694,1096.432,715.7539,1090.2907,713.1805,1095.7108,721.694,1096.432" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="596" y="1010.6387">Collates</text><!--MD5=[5c68819459f534c0d528b345968cb0a8]
+link hermes to api--><path d="M506.671,961.57 C542.63,1030.859 598.434,1126.454 664,1197.5 C675.97,1210.47 689.684,1222.904 703.839,1234.432 " fill="none" id="hermes-to-api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="710.369,1239.663,706.0023,1232.3192,702.2502,1237.0013,710.369,1239.663" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="59" x="596" y="1112.6387">Collates</text><!--MD5=[388f6fd7e894899a4938fcdf27eb8451]
+reverse link target to hermes--><path d="M462.5,1407.787 C462.5,1283.702 462.5,1079.035 462.5,961.684 " fill="none" id="target-backto-hermes" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="462.5,1415.842,465.5,1407.842,459.5,1407.842,462.5,1415.842" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="417.5" y="1193.3887">Publishes</text><!--MD5=[599aa7f02e28659f442fea119b72977a]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/v2.4.0/C4_Component.puml
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include FONTAWESOME/users.puml
+
+!include <office/Security/key_permissions>
+!include <office/Concepts/service_application>
+!include <office/Concepts/publish>
+!include <office/Concepts/node_generic>
+!include <office/Concepts/lab>
+
+LAYOUT_LEFT_RIGHT()
+
+Person(rse, "Researchers", "Developers of a research software", $sprite="users")
+System_Ext(target, "Publication repository", "One or multiple publication repositories based on InvenioRDM or Dataverse", $sprite="publish")
+
+System_Boundary(platform, "Developing Platform", "GitHub, GitLab, etc") {
+  Container_Ext(secrets, "Secrets Storage", "Encrypted Plain Text", "A storage to retrieve credentials from", $sprite="key_permissions")
+  Container_Ext(api, "Platform API", "JSON", "Well-structured software metadata", $sprite="service_application")
+
+  Container_Boundary(vcs, "Source Code Repository") {
+    Component(ci_conf, "CI configuration", "Plain text", "Pipeline and workflow definitions")
+    Component(hermes_conf, "HERMES configuration", "Plain text", "Individual settings for HERMES tooling")
+    Component(code, "Code files", "Plain text", "The research software")
+    Component(data, "Data files", "Mixed content", "Optional research data in mixed repos")
+    Component(docs, "Documentation", "Plain text", "At least a README file")
+    Component(metadata, "Metadata files", "CFF/CodeMeta/...", "Well-structured software metadata files")
+  }
+  Rel_Left(rse, vcs, "Pushes")
+
+  Container_Boundary(ci, "CI/CD Tool", "GitHub Actions, GitLab CI, Jenkins, ...", "Engine to execute predefined, version controlled pipelines") {
+    Component_Ext(engine, "Runner", "GitHub/GitLab Runner or Jenkins Agent", "Runs defined pipelines", $sprite="node_generic")
+    Component(hermes, "HERMES workflow", "DSL based workflow", "Extract, merge, validate metadata and publish software", $sprite="lab")
+
+    Rel_Right(vcs, engine, "Triggers", "Changes, Releases, On Demand")
+    Rel(engine, ci_conf, "Reads")
+    Rel(engine, hermes, "Executes")
+    Rel_Right(engine, secrets, "Retrieves")
+
+    Rel_Up(hermes, hermes_conf, "Reads")
+    Rel(hermes, metadata, "Collates")
+    Rel(hermes, code, "Collates")
+    Rel(hermes, docs, "Collates")
+    Rel(hermes, api, "Collates")
+    Rel_Left(hermes, target, "Publishes")
+  }
+}
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $users [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000024310000000000000000000000
+000000000000000000018EFFFFC400000000000000000000
+0000000000000000003EFFFFFFFF90000000000000000000
+000000000000000002EFFFFFFFFFF9000000000000000000
+00000000000000000CFFFFFFFFFFFF400000000000000000
+0000006DFE8000004FFFFFFFFFFFFFC000004BFEA2000000
+000009FFFFFC00009FFFFFFFFFFFFFF10005FFFFFE200000
+00003FFFFFFF8000BFFFFFFFFFFFFFF3001FFFFFFFC00000
+00009FFFFFFFD000CFFFFFFFFFFFFFF4005FFFFFFFF10000
+0000AFFFFFFFE000AFFFFFFFFFFFFFF2006FFFFFFFF20000
+00007FFFFFFFC0006FFFFFFFFFFFFFE0004FFFFFFFF00000
+00001FFFFFFF50001FFFFFFFFFFFFF80000DFFFFFF900000
+000004FFFFF8000007FFFFFFFFFFFE100002DFFFFB000000
+000000179830000000AFFFFFFFFFF3000000069940000000
+00000000000000000007FFFFFFFC20000000000000000000
+0000012333310000000016ACB94000000000233332000000
+0001BFFFFFFFD3000000000000000000008FFFFFFFE60000
+000DFFFFFFFFE400000000000000000000AFFFFFFFFF6000
+007FFFFFFFFD1006BEFE8310025BFFD92006FFFFFFFFF000
+00CFFFFFFFE102DFFFFFFFFFFFFFFFFFF8007FFFFFFFF400
+00DFFFFFFF302FFFFFFFFFFFFFFFFFFFFFA00BFFFFFFF500
+00DFFFFFFB00EFFFFFFFFFFFFFFFFFFFFFF603FFFFFFF500
+00CFFFFFF407FFFFFFFFFFFFFFFFFFFFFFFE00CFFFFFF400
+006FFFFFF00DFFFFFFFFFFFFFFFFFFFFFFFF508FFFFFD000
+00037777601FFFFFFFFFFFFFFFFFFFFFFFFF902777761000
+00000000002FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000000FFFFFFFFFFFFFFFFFFFFFFFFF800000000000
+000000000009FFFFFFFFFFFFFFFFFFFFFFFF200000000000
+0000000000007DEEEEEEEEEEEEEEEEEEEEB2000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 USERS>> White
+
+sprite $key_permissions [24x48/16] {
+000000000000000000000000
+000000000000000000000000
+00000000158AA96300000000
+00000018AAAAAAAA94000000
+000003AAAAAAAAAAAA600000
+00003AAAAAAAAAAAAAA60000
+00019AAAAAA87AAAAAAA4000
+0007AAAAA920008AAAAA9000
+001AAAAAA300000AAAAAA500
+004AAAAAA1000007AAAAA900
+008AAAAAA1000007AAAAAA10
+00AAAAAAA400001AAAAAAA20
+00AAAAAAAA30029AAAAAAA20
+00AAAAAAAAA99AAAAAAAAA20
+008AAAAAAAAAAAAAAAAAAA20
+005AAAAAAAAAAAAAAAAAAA00
+002AAAAAAAAAAAAAAAAAA700
+0009AAAAAAAAAAAAAAAAA100
+0002AAAAAAAAAAAAAAAA5000
+00005AAAAAAAAAAAAAA70000
+000006AAAAAAAAAAAA800000
+0000004AAAAAAAAAA5000000
+00000001AAAAAAAA20000000
+00000000AAAAAAAA00000000
+00000000AAAAAAAA00000000
+00000000AAAAAAAA00000000
+00000000AAAAAAAA00000000
+00000000AAAAAAA500000000
+00000000AAAAAA5000000000
+00000000AAAAA60000000000
+00000000AAAAA70000000000
+00000000AAAAAA7000000000
+00000000AAAAAAA600000000
+00000000AAAAAAAA60000000
+00000000AAAAAAAA40000000
+00000000AAAAAAA500000000
+00000000AAAAAA5000000000
+00000000AAAAA90000000000
+00000000AAAAAA4000000000
+00000000AAAAAAA400000000
+00000000AAAAAAAA20000000
+000000004AAAAAA910000000
+0000000005AAAA9200000000
+00000000006AAA1000000000
+000000000007920000000000
+000000000000200000000000
+000000000000000000000000
+000000000000000000000000
+}
+
+sprite $service_application [48x39/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0039AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4000000
+009AAAAAAAAAAAAAAAAAAAAAAAAAAAAA78A76AA69A000000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA03A209806A100000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA100000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA100000
+00A94444444444444444444444444444444444448A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000006A100000
+00A70000000000000000000000000000000000005A100000
+00A700000000000000000000000000000000000000100000
+00A70000000000000000000000000059A20001A960000000
+00A700000000000000000000000001AAA70005AAA3000000
+00A7000000000000000000000000009AAA6769AAA0000000
+00A7000000000000000000000000003AAAAAAAAA60000000
+00A700000000000000000000000001AAAAAAAAAAA2000000
+00A700000000000000000000059419AA9310127AAA348800
+00A7000000000000000000000AAAAAA700000004AAAAAA30
+00A7000000000000000000004AAAAA90000000006AAAAA60
+00A70000000000000000000005AAAA100000000009AAA710
+00A7000000000000000000000009A9000000000007AA1000
+00A7000000000000000000000009A8000000000006AA0000
+00A7000000000000000000000009A9000000000007AA0000
+00A700000000000000000000014AAA000000000008AA5100
+00A7000000000000000000003AAAAA70000000002AAAAA60
+009A999999999999999999912AAAAAA200000000AAAAAA50
+0029AAAAAAAAAAAAAAAAAAA508AA7AAA5000004AAA76AA10
+000000000000000000000000014005AAAA7669AAA7000200
+0000000000000000000000000000003AAAAAAAAA80000000
+0000000000000000000000000000003AAAAAAAAAA0000000
+000000000000000000000000000000AAA80106AAA3000000
+0000000000000000000000000000008AA50002AA92000000
+000000000000000000000000000000026000005300000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $publish [48x40/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0029AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA80000000
+009AAAAAAAAAAAAAAAAAAAAAAAAAAAA88AA89A88A7000000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAA00AA05A00AA000000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAA88AA89A88AA000000
+00AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA000000
+00AA888888888888888888888888888888888888AA000000
+00A9000000000000000000000000000000000000AA000000
+00A9000000000000000000000000000000000000AA000000
+00A9000000000000005555555500000000000000AA000000
+00A900000000000000AAAAAAAA00000000000000AA000000
+00A900000000000000AAAAAAAA00000000000000AA000000
+00A900000000000000AAAAAAAA00000000000000AA000000
+00A900000000000000AAAAAAAA00000000000000AA000000
+00A900000000000000888A988800000000000000AA000000
+00A9000000000000000009400000000000000000AA000000
+00A9000000000000000009400000000000000000AA000000
+00A9000000000000000009400000000000000000AA000000
+00A9000000005AAAAAAAAAAAAAAAA97000000000AA000000
+00A9000000005800000009400000000000000000AA000000
+00A90000000058000000094000000169AAA9840035000000
+00A90000000058000000094000005AAAAAAAAA9200000000
+00A9000001226922102229622006AA9620037AA501000000
+00A9000004AAAAAA708AAAAA305AA700000001301A600000
+00A9000004AAAAAA708AAAA901AA700000000002AAA70000
+00A9000004AAAAAA708AAAA607AA000000000029AAAA7000
+00A9000004AAAAAA708AAAA309A60000000002AAAAAAA700
+00A9000000000000000000000AA2000000000AA73AA2AA40
+00A9000000000000000000000AA0000000000A703AA02A40
+00A9000000000000000000000AA10000000007004AA00230
+007AAAAAAAAAAAAAAAAAAAA209A50000000000007A700000
+0007AAAAAAAAAAAAAAAAAAA508A9000000000001AA300000
+00000000000000000000000002AA400000000007AA100000
+000000000000000000000000007AA4000000006AA4000000
+0000000000000000000000000009AA82000139AA60000000
+00000000000000000000000000009AAAAAAAAAA500000000
+0000000000000000000000000000039AAAAAA82000000000
+000000000000000000000000000000024553100000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $node_generic [41x48/16] {
+00000000000000000000000000000000000000000
+00000000000000000000000000000000000000000
+00000000000000000001520000000000000000000
+00000000000000000049AA7100000000000000000
+000000000000000028AAAAA940000000000000000
+0000000000000007AAAAAAAAAA200000000000000
+000000000000059AAAAAAAAAAAA71000000000000
+0000000000028AAAAAAAAAAAAAAAA500000000000
+00000000017AAAAAAAAAAAAAAAAAAA93000000000
+000000005AAAAAAAAAAAAAAAAAAAAAAA720000000
+00000029AAAAAAAAAAAAAAAAAAAAAAAAAA5000000
+000027AAAAAAAAAAAAAAAAAAAAAAAAAAAAA940000
+00019AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4000
+000016AAAAAAAAAAAAAAAAAAAAAAAAAAAAA920000
+00720038AAAAAAAAAAAAAAAAAAAAAAAAA95001620
+00AA50004AAAAAAAAAAAAAAAAAAAAAAA70003AA20
+00AAA940016AAAAAAAAAAAAAAAAAAA820028AAA20
+00AAAAA820028AAAAAAAAAAAAAAA950016AAAAA20
+00AAAAAAA60003AAAAAAAAAAAAA61005AAAAAAA20
+00AAAAAAAA940015AAAAAAAAA820038AAAAAAAA20
+00AAAAAAAAAA910018AAAAAA40017AAAAAAAAAA20
+00AAAAAAAAAAAA710039AA51005AAAAAAAAAAAA20
+00AAAAAAAAAAAAAA4000520039AAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAA9300018AAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAA602AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+00AAAAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAAA20
+0039AAAAAAAAAAAAAAAA03AAAAAAAAAAAAAAAA600
+00004AAAAAAAAAAAAAAA03AAAAAAAAAAAAAA71000
+0000017AAAAAAAAAAAAA03AAAAAAAAAAAA9400000
+00000002AAAAAAAAAAAA03AAAAAAAAAAA50000000
+00000000049AAAAAAAAA03AAAAAAAAA7200000000
+000000000007AAAAAAAA03AAAAAAA930000000000
+00000000000028AAAAAA03AAAAAA4000000000000
+0000000000000049AAAA03AAAA610000000000000
+00000000000000006AAA03AA91000000000000000
+0000000000000000027A039400000000000000000
+00000000000000000003010000000000000000000
+00000000000000000000000000000000000000000
+00000000000000000000000000000000000000000
+}
+
+sprite $lab [44x48/16] {
+00000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000
+00000000000008AAAAAAAAAAA2000000000000000000
+0000000000002AAAAAAAAAAAA7000000000000000000
+00000000000008AAAAAAAAAAA1000000000000000000
+000000000000008AAAAAAAAA30000000000000000000
+000000000000003AAAAAAAA900000000000000000000
+000000000000002AAAAAAAA600000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA500000000000000000000
+000000000000002AAAAAAAA60000004AAAAAAAAAA900
+000000000000005AAAAAAAAA1000005AAAAAAAAAA900
+00000000000001AAAAAAAAAA50000002AAAAAAAAA000
+00000000000008AAAAAAAAAAA1000002AAAAAAAAA000
+0000000000003AAAAAAAAAAAA9000002AAAAAAAAA000
+0000000000019AAAAAAAAAAAAA400002AAAAAAAAA000
+000000000007AAAAAAAAAAAAAAA00002AAAAAAAAA000
+00000000003AAAAAAAAAAAAAAAA70002AAAAA5555000
+00000000009AAAAAAAAAAAAAAAAA3002AAAAA1000000
+0000000006AAAAAAAAAAAAAAAAAA8002AAAAAAAAA000
+000000001AA77777778888888889A602AAAAAAAAA000
+000000008A500000000000000001AA22AAAAAAAAA000
+00000004A90000000000000000006A82AAAAAAAAA000
+00000019A300000000000000000009A7AAAAAAAAA000
+0000007A7000000000000000000002AAAAAAA0000000
+000003A910000000000000000000007AAAAAA5555000
+000008A400000000000000000000000AAAAAAAAAA000
+00005A80000000000000000000000004AAAAAAAAA000
+0002AA10000000000000000000000002AAAAAAAAA000
+0007A500000000000000000000000002AAAAAAAAA000
+003AA000000000000000000000000002AAAAAAAAA000
+009A3000000000000000000000000002AAAAA0000000
+00AA3000000000000000000000000002AAAAAAAAA000
+004AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA000
+00049AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA000
+00000000000000000000000000000001AAAAAAAAA000
+000000000000000000000000000000019AAAAAAA8000
+000000000000000000000000000000007AAAAAAA2000
+000000000000000000000000000000000AAAAAA70000
+000000000000000000000000000000000169A9500000
+00000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000
+}
+
+
+left to right direction
+
+rectangle "<$users>\n==Researchers\n\n Developers of a research software" <<person>> as rse 
+rectangle "<$publish>\n==Publication repository\n\n One or multiple publication repositories based on InvenioRDM or Dataverse" <<external_system>> as target 
+
+rectangle "==Developing Platform\n<size:12>[System]</size>" <<GitHub, GitLab, etc>><<boundary>> as platform  {
+  rectangle "<$key_permissions>\n==Secrets Storage\n//<size:12>[Encrypted Plain Text]</size>//\n\n A storage to retrieve credentials from" <<external_container>> as secrets 
+  rectangle "<$service_application>\n==Platform API\n//<size:12>[JSON]</size>//\n\n Well-structured software metadata" <<external_container>> as api 
+
+rectangle "==Source Code Repository\n<size:12>[Container]</size>" <<boundary>> as vcs  {
+    rectangle "==CI configuration\n//<size:12>[Plain text]</size>//\n\n Pipeline and workflow definitions" <<component>> as ci_conf 
+    rectangle "==HERMES configuration\n//<size:12>[Plain text]</size>//\n\n Individual settings for HERMES tooling" <<component>> as hermes_conf 
+    rectangle "==Code files\n//<size:12>[Plain text]</size>//\n\n The research software" <<component>> as code 
+    rectangle "==Data files\n//<size:12>[Mixed content]</size>//\n\n Optional research data in mixed repos" <<component>> as data 
+    rectangle "==Documentation\n//<size:12>[Plain text]</size>//\n\n At least a README file" <<component>> as docs 
+    rectangle "==Metadata files\n//<size:12>[CFF/CodeMeta/...]</size>//\n\n Well-structured software metadata files" <<component>> as metadata 
+  }
+  rse -LEFT->> vcs : **Pushes**
+
+rectangle "==CI/CD Tool\n<size:12>[Container]</size>" <<GitHub Actions, GitLab CI, Jenkins, ...>><<boundary>> as ci [[Engine to execute predefined, version controlled pipelines]] {
+    rectangle "<$node_generic>\n==Runner\n//<size:12>[GitHub/GitLab Runner or Jenkins Agent]</size>//\n\n Runs defined pipelines" <<external_component>> as engine 
+    rectangle "<$lab>\n==HERMES workflow\n//<size:12>[DSL based workflow]</size>//\n\n Extract, merge, validate metadata and publish software" <<component>> as hermes 
+
+    vcs -RIGHT->> engine : **Triggers**\n//<size:12>[Changes, Releases, On Demand]</size>//
+    engine - ->> ci_conf : **Reads**
+    engine - ->> hermes : **Executes**
+    engine -RIGHT->> secrets : **Retrieves**
+
+    hermes -UP->> hermes_conf : **Reads**
+    hermes - ->> metadata : **Collates**
+    hermes - ->> code : **Collates**
+    hermes - ->> docs : **Collates**
+    hermes - ->> api : **Collates**
+    hermes -LEFT->> target : **Publishes**
+  }
+}
+@enduml
+
+PlantUML version 1.2022.1beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

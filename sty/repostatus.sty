@@ -1,0 +1,54 @@
+%%Identification
+%%The package identifies itself and the LaTeX version needed
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sty/repostatus}[2022/01/04 RepoStatus.org Badge Package]
+
+%%Requeiried packages and preliminary definitions, needed by the options
+\RequirePackage{xstring}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome5}
+\RequirePackage{tcolorbox}
+
+%\definecolor{rsConceptColor}{HTML}{f4f4f4} original color from repostatus.org - way to light to be readable on white
+\definecolor{rsConceptColor}{HTML}{888b8b}
+\definecolor{rsWIPColor}{HTML}{d8b024}
+\definecolor{rsSuspendedColor}{HTML}{f48041}
+\definecolor{rsAbandonedColor}{HTML}{da644e}
+\definecolor{rsActiveColor}{HTML}{4ac41c}
+\definecolor{rsInactiveColor}{HTML}{a4a62b}
+\definecolor{rsUnsupportedColor}{HTML}{9d9d9d}
+\definecolor{rsMovedColor}{HTML}{d6604a}
+
+%%This parts handles the options passed to the package.
+%%\DeclareOption{red}{\renewcommand{\wordcolour}{sharelatexcolour}}
+%%\DeclareOption{blue}{\renewcommand{\wordcolour}{mybluecolour}}
+%%\DeclareOption*{\PackageWarning{examplepackage}{Unknown ‘\CurrentOption’}}
+\ProcessOptions\relax
+
+%%Body of the package, most of the declarations appear here.
+
+%%Important words are added to the index and printed in different colour
+\newcommand{\repostatus}[2][] % make it expect 2 args, first is by default empty (optional arg)
+{%
+\IfSubStr{#2}{oncept}{\textcolor{rsConceptColor}{\faLightbulb}}{}%
+\IfSubStr{#2}{WIP}{\textcolor{rsWIPColor}{\faHardHat}}{}%
+\IfSubStr{#2}{ork}{\textcolor{rsWIPColor}{\faHardHat}}{}%
+\IfSubStr{#2}{uspended}{\textcolor{rsSuspendedColor}{\faStopCircle}}{}%
+\IfSubStr{#2}{bandoned}{\textcolor{rsAbandonedColor}{\faPlug}}{}%
+\IfSubStr{#2}{nactive}{\textcolor{rsInactiveColor}{\faPauseCircle}}{%
+% else: look for active/Active (but avoid double icons)
+\IfSubStr{#2}{ctive}{\textcolor{rsActiveColor}{\faPlayCircle}}{}%
+}%
+\IfSubStr{#2}{nsupported}{\textcolor{rsUnsupportedColor}{\faLifeRing}}{}%
+\IfSubStr{#2}{oved}{\textcolor{rsMovedColor}{\faSuitcase}}{}%
+\IfSubStr{#1}{label}{\,\textit{\IfSubStr{#2}{WIP}{Work\,In\,Progress}{#2}}}{}%
+}
+
+%% Concept
+%% WIP
+%% Suspended
+%% Abandoned
+%% Active
+%% Inactive
+%% Unsupported
+%% Moved
